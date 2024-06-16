@@ -5,6 +5,7 @@
 //In this syntax would be  int[][] arr = new int[3][];
 //Here it is mandatory to fill row but column is optional
 
+import java.util.Arrays;
 import java.util.Scanner;
 public class Multidimensional_Array {
     public static void main(String[] args) {
@@ -20,19 +21,15 @@ public class Multidimensional_Array {
 
         //input
 
-        for(int row=0; row < arr.length; row++){
-            //for each col. in the column
-            for(int col=0; col < arr[row].length; col++){
-                arr[row][col] = sc.nextInt();
-            }
-        }
+//        for(int row=0; row < arr.length; row++){
+//            //for each col. in the column
+//            for(int col=0; col < arr[row].length; col++){
+//                arr[row][col] = sc.nextInt();
+//            }
+//        }
 
-        for(int row=0; row < arr.length; row++){
-            //for each col. in the column
-            for(int col=0; col < arr[row].length; col++){
-                System.out.print(arr[row][col] + " ");
-            }
-            System.out.println();
+       for(int row=0; row < arr.length; row++){
+           System.out.println(Arrays.toString(arr[row]));
         }
     }
 }
