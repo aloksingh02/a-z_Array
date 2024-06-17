@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="Complete Array concept function">
-      <change afterPath="$PROJECT_DIR$/src/Multidimensional_Array.java" afterDir="false" />
+    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="2d array for column">
+      <change afterPath="$PROJECT_DIR$/src/Arraylist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +35,16 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Asus/IdeaProjects/a-z_Array/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Multidimensional_Array">
-    <configuration name="Concept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Concept" />
+  <component name="RunManager" selected="Application.Arraylist">
+    <configuration name="Arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arraylist" />
+      <module name="a-z_Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColNoFixed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColNoFixed" />
       <module name="a-z_Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,10 +73,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arraylist" />
+        <item itemvalue="Application.ColNoFixed" />
         <item itemvalue="Application.Multidimensional_Array" />
         <item itemvalue="Application.PassinginFunction" />
         <item itemvalue="Application.Input" />
-        <item itemvalue="Application.Concept" />
       </list>
     </recent_temporary>
   </component>
@@ -106,13 +114,40 @@
       <option name="project" value="LOCAL" />
       <updated>1718180915036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2d array">
+      <option name="closed" value="true" />
+      <created>1718538618124</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718538618124</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2d array by array.toString">
+      <option name="closed" value="true" />
+      <created>1718538911690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718538911690</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2d array for column">
+      <option name="closed" value="true" />
+      <created>1718559813370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718559813370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complete Array concept" />
     <MESSAGE value="Complete Array concept input" />
     <MESSAGE value="Complete Array concept function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Array concept function" />
+    <MESSAGE value="2d array" />
+    <MESSAGE value="2d array by array.toString" />
+    <MESSAGE value="2d array for column" />
+    <option name="LAST_COMMIT_MESSAGE" value="2d array for column" />
   </component>
 </project>
