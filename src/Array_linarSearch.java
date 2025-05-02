@@ -10,9 +10,12 @@ public class Array_linarSearch {
         for(int i=0; i<a; i++){
             arr[i] = sc.nextInt();
         }
+
+        //declaring key for search
         System.out.println("Enter the element to found");
         int key = sc.nextInt();
 
+        //condition
         boolean found = false;
         for(int i=0; i<a; i++){
             if(arr[i]==key){
@@ -21,10 +24,8 @@ public class Array_linarSearch {
                 break;
             }
         }
-
         if(!found){
             System.out.println("element is not found");
         }
-
     }
 }
