@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="array second largest number">
-      <change afterPath="$PROJECT_DIR$/src/Array_copyElement.java" afterDir="false" />
+    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="copy element from original array">
+      <change afterPath="$PROJECT_DIR$/src/Array_removeDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mergeTwoArrayInThird.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array_oddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array_oddEven.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Array_oddEven">
+  <component name="RunManager" selected="Application.mergeTwoArrayInThird">
     <configuration name="Array_copyElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array_copyElement" />
       <module name="a-z_Array" />
@@ -66,13 +66,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array_reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array_reverse" />
-      <module name="a-z_Array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Array_secondLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array_secondLargestNumber" />
       <module name="a-z_Array" />
@@ -80,13 +73,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mergeTwoArrayInThird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mergeTwoArrayInThird" />
+      <module name="a-z_Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mergeTwoArrayInThird" />
         <item itemvalue="Application.Array_oddEven" />
         <item itemvalue="Application.Array_copyElement" />
         <item itemvalue="Application.Array_secondLargestNumber" />
         <item itemvalue="Application.Array_linarSearch" />
-        <item itemvalue="Application.Array_reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +259,31 @@
       <option name="project" value="LOCAL" />
       <updated>1746173620736</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="copy element from original array">
+      <option name="closed" value="true" />
+      <created>1746293485740</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1746293485740</updated>
+    </task>
+    <task id="LOCAL-00022" summary="copy element from original array">
+      <option name="closed" value="true" />
+      <created>1746293499876</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1746293499876</updated>
+    </task>
+    <task id="LOCAL-00023" summary="copy element from original array">
+      <option name="closed" value="true" />
+      <created>1746293534087</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1746293534087</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -276,6 +300,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Array reverse" />
     <MESSAGE value="array second largest number" />
-    <option name="LAST_COMMIT_MESSAGE" value="array second largest number" />
+    <MESSAGE value="copy element from original array" />
+    <option name="LAST_COMMIT_MESSAGE" value="copy element from original array" />
   </component>
 </project>
