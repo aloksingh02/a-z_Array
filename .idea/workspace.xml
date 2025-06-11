@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="span of array=(max - min) element">
-      <change afterPath="$PROJECT_DIR$/src/Array_findElementOfArray.java" afterDir="false" />
+    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="find the index of element of array">
+      <change afterPath="$PROJECT_DIR$/src/Array_barChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Array_barChart.executor": "Run",
     "Application.Array_findElementOfArray.executor": "Run",
     "Application.Array_spanOfArray.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,9 +63,9 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Array_findElementOfArray">
-    <configuration name="Array_copyElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array_copyElement" />
+  <component name="RunManager" selected="Application.Array_barChart">
+    <configuration name="Array_barChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array_barChart" />
       <module name="a-z_Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array_barChart" />
         <item itemvalue="Application.Array_findElementOfArray" />
         <item itemvalue="Application.Array_spanOfArray" />
         <item itemvalue="Application.mergeTwoArrayInThird" />
         <item itemvalue="Application.Array_oddEven" />
-        <item itemvalue="Application.Array_copyElement" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749624925981</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="find the index of element of array">
+      <option name="closed" value="true" />
+      <created>1749625913804</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1749625913804</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -327,6 +337,7 @@
     <MESSAGE value="array second largest number" />
     <MESSAGE value="copy element from original array" />
     <MESSAGE value="span of array=(max - min) element" />
-    <option name="LAST_COMMIT_MESSAGE" value="span of array=(max - min) element" />
+    <MESSAGE value="find the index of element of array" />
+    <option name="LAST_COMMIT_MESSAGE" value="find the index of element of array" />
   </component>
 </project>
