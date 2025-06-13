@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="Bar chart of the array">
-      <change afterPath="$PROJECT_DIR$/src/Array_rotate.java" afterDir="false" />
+    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="array rotation">
+      <change afterPath="$PROJECT_DIR$/src/Array_inverseOfArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,22 +28,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "aloksingh02"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aloksingh02&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aloksingh02/a-z_Array.git",
-    "accountId": "8148542e-280d-4e21-bf62-140f75c75602"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aloksingh02/a-z_Array.git&quot;,
+    &quot;accountId&quot;: &quot;8148542e-280d-4e21-bf62-140f75c75602&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hj2Wy8K2ZXa3YUn7AOKuWdOFds" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,6 +53,7 @@
   "keyToString": {
     "Application.Array_barChart.executor": "Run",
     "Application.Array_findElementOfArray.executor": "Run",
+    "Application.Array_inverseOfArray.executor": "Run",
     "Application.Array_rotate.executor": "Run",
     "Application.Array_spanOfArray.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,10 +62,11 @@
     "onboarding.tips.debug.path": "C:/Users/Asus/IdeaProjects/a-z_Array/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Array_rotate">
+  <component name="RunManager" selected="Application.Array_inverseOfArray">
     <configuration name="Array_barChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array_barChart" />
       <module name="a-z_Array" />
@@ -74,6 +76,13 @@
     </configuration>
     <configuration name="Array_findElementOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array_findElementOfArray" />
+      <module name="a-z_Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array_inverseOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array_inverseOfArray" />
       <module name="a-z_Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,20 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mergeTwoArrayInThird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mergeTwoArrayInThird" />
-      <module name="a-z_Array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array_inverseOfArray" />
         <item itemvalue="Application.Array_rotate" />
         <item itemvalue="Application.Array_barChart" />
         <item itemvalue="Application.Array_findElementOfArray" />
         <item itemvalue="Application.Array_spanOfArray" />
-        <item itemvalue="Application.mergeTwoArrayInThird" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749628423062</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="array rotation">
+      <option name="closed" value="true" />
+      <created>1749716946904</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1749716946904</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -356,6 +366,7 @@
     <MESSAGE value="span of array=(max - min) element" />
     <MESSAGE value="find the index of element of array" />
     <MESSAGE value="Bar chart of the array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bar chart of the array" />
+    <MESSAGE value="array rotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="array rotation" />
   </component>
 </project>
