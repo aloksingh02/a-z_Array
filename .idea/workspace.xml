@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="array rotation">
-      <change afterPath="$PROJECT_DIR$/src/Array_inverseOfArray.java" afterDir="false" />
+    <list default="true" id="65063d18-1748-466e-9ee0-0770d06f3fd0" name="Changes" comment="inverse of array">
+      <change afterPath="$PROJECT_DIR$/src/Array_subarrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "Application.Array_inverseOfArray.executor": "Run",
     "Application.Array_rotate.executor": "Run",
     "Application.Array_spanOfArray.executor": "Run",
+    "Application.Array_subarrays.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -66,7 +67,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Array_inverseOfArray">
+  <component name="RunManager" selected="Application.Array_subarrays">
     <configuration name="Array_barChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array_barChart" />
       <module name="a-z_Array" />
@@ -95,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array_spanOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array_spanOfArray" />
+    <configuration name="Array_subarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array_subarrays" />
       <module name="a-z_Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array_subarrays" />
         <item itemvalue="Application.Array_inverseOfArray" />
         <item itemvalue="Application.Array_rotate" />
         <item itemvalue="Application.Array_barChart" />
         <item itemvalue="Application.Array_findElementOfArray" />
-        <item itemvalue="Application.Array_spanOfArray" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749716946904</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="inverse of array">
+      <option name="closed" value="true" />
+      <created>1749804207910</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1749804207910</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -367,6 +376,18 @@
     <MESSAGE value="find the index of element of array" />
     <MESSAGE value="Bar chart of the array" />
     <MESSAGE value="array rotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="array rotation" />
+    <MESSAGE value="inverse of array" />
+    <option name="LAST_COMMIT_MESSAGE" value="inverse of array" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array_subarrays.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
