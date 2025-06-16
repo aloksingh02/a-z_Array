@@ -5,7 +5,7 @@ public class Array_binarySearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Array input
+
         System.out.print("Enter the length of array: ");
         int n = sc.nextInt();
         int a[] = new int[n];
@@ -15,11 +15,11 @@ public class Array_binarySearch {
             a[i] = sc.nextInt();
         }
 
-        // Input key to search
+
         System.out.print("Enter the element to search: ");
         int key = sc.nextInt();
 
-        // Binary Search
+
         int low = 0, high = a.length - 1;
 
         while (low <= high) {
